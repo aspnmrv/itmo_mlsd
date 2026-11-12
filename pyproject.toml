@@ -6,7 +6,15 @@ dependencies = []
 
 [dependency-groups]
 dev = [
+    "duckdb>=2.0.0",
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "kagglehub>=1.0.3",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "polars>=2.1.0",
     "pre-commit>=4.7.0",
+    "pyarrow>=26.0.0",
     "ruff>=0.17.1",
 ]
 
